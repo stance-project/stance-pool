@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 
 # Change this line to set the location of your coin wallet RPC daemon and set the RPC port you want to use
-ExecStart=/path/to/coin/wallet-rpc --rpc-bind-ip=127.0.0.1 --rpc-bind-port=5432 --wallet=/path/to/wallet --password=your.wallet.password!
+ExecStart=/root/StanceCoin/build/src/wallet-rpc --rpc-bind-ip=127.0.0.1 --rpc-bind-port=10999 --wallet=/path/to/wallet --password=fckgw123
 
 # Change this line to the user that will run your wallet RPC daemon
 User=pool-user
